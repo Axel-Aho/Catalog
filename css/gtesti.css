@@ -1,0 +1,231 @@
+@font-face {
+    font-family: Clarendon;
+    src: url(http://gtesti.local/wp-content/themes/Catalog/fonts/ClarendonLTStd.ttf);
+    font-weight: normal;
+}
+
+body {
+	font-family: Clarendon;
+	font-size: 14px;
+	color: #333;
+	background-color: #f8f6ef;
+}
+
+a:link,
+a:visited {
+	color: black;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+#tuotekuva {
+	position: relative;
+    float: left;
+    width:  9.375em;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+#tuotetekstit {
+
+}
+#tuotekuva1, #tuotekuva2, #tuotekuva3 {
+	position: relative;
+    float: left;
+    width:  12em;
+    height: auto;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+a:active {
+  color: #41a327;
+}
+
+.card {
+	margin-bottom: 1rem;
+}
+.tr:nth-child(even) {
+    background-color: #dddddd;
+		border: 1px solid #dddddd;
+}
+
+.td {
+    border: 1px solid #dddddd;
+		font-size: 5px;
+}
+
+#text1, #text2, #text3, #text4 {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.your-div span {
+
+}
+
+/* General Layout */
+#tausta {
+	background-image: url("http://gtesti.local/wp-content/uploads/2018/04/ylätausta.png");
+}
+
+div.container {
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1000px;
+
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* Header */
+.site-header {
+	border-bottom: 2px solid #999;
+}
+
+/* Footer */
+.site-footer {
+	margin-top: 30px;
+	border-top: 2px solid #999;
+}
+
+#infocards {
+  border-radius: 0rem;
+}
+/* Navigatin menus */
+
+.menu-header-menu-container {
+	padding-top: 2rem;
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+#menu-header-menu {
+	min-height: 120px;
+
+
+}
+
+.VaaleaLuomu4 {
+background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_vaalea_tolkki_pieni4.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.VaaleaLuomu5 {
+ background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_vaalea_tolkki_pieni.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.VahvaLuomu8 {
+background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_vahva_tolkki_pieni.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.TummaLuomu4 {
+background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_tumma_tolkki_pieni.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.LuomuVehn4 {
+background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_luomuvehna_tolkki_pieni.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.GoldenAle4 {
+background-image: url('http://gtesti.local/wp-content/uploads/2018/04/marsalkka_golden_ale_tolkki_pieni.png');
+background-repeat: no-repeat;
+background-position: center;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .VaaleaLuomu4 {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+  .VaaleaLuomu5 {
+   background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+  .VahvaLuomu8 {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+  .TummaLuomu4 {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+  .LuomuVehn4 {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+
+  .GoldenAle4 {
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  }
+}
